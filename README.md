@@ -1,88 +1,59 @@
-import React from 'react';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=435&lines=Hi+there%2C+I'm+Goodness+%F0%9F%91%8B;Backend+Engineer;FOCOSA+President" alt="Typing SVG" />
+</h1>
 
-const GithubProfile = () => {
-  return (
-    <div className="max-w-4xl mx-auto p-8 space-y-8 bg-gradient-to-br from-gray-900 to-gray-800 text-white rounded-lg">
-      {/* Header Section */}
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          Goodness Mbakara
-        </h1>
-        <p className="text-xl text-gray-300">
-          Backend Engineer | FOCOSA President | Passionate About Scalable Systems
-        </p>
-      </div>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Goodnessmbakara&theme=tokyonight&no-frame=true&no-bg=true&margin-w=5" alt="GitHub Trophies"/>
+</div>
 
-      {/* About Section */}
-      <div className="grid md:grid-cols-2 gap-8">
-        <div className="space-y-4">
-          <h2 className="text-2xl font-semibold text-blue-400">🚀 About Me</h2>
-          <ul className="space-y-2 text-gray-300">
-            <li className="flex items-center space-x-2">
-              <span className="text-blue-400">•</span>
-              <span>President, Faculty of Computing Students Association (FOCOSA), University of Uyo</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <span className="text-blue-400">•</span>
-              <span>Backend Engineer at Kwekmarket.com</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <span className="text-blue-400">•</span>
-              <span>Optimizing performance & scalability with Python benchmarking</span>
-            </li>
-          </ul>
-        </div>
-        
-        <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg filter blur-xl"></div>
-          <div className="relative bg-gray-800 p-6 rounded-lg border border-gray-700">
-            <h2 className="text-2xl font-semibold text-blue-400 mb-4">🔧 Tech Stack</h2>
-            <div className="grid grid-cols-4 gap-4">
-              {['Python', 'JavaScript', 'TypeScript', 'Docker', 'Linux', 'MySQL', 'PostgreSQL', 'Django'].map((tech) => (
-                <div key={tech} className="flex items-center justify-center p-2 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors">
-                  <span className="text-sm">{tech}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+<!-- Profile Banner -->
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-      {/* Stats Section */}
-      <div className="grid md:grid-cols-3 gap-4">
-        {['Contributions', 'Projects', 'Pull Requests'].map((stat, index) => (
-          <div key={stat} className="bg-gray-800 p-6 rounded-lg border border-gray-700 text-center">
-            <h3 className="text-xl font-semibold text-blue-400">{stat}</h3>
-            <p className="text-3xl font-bold mt-2 text-gray-300">{(index + 1) * 127}</p>
-          </div>
-        ))}
-      </div>
+### 🚀 About Me
+- 🎓 President, **Faculty of Computing Students Association (FOCOSA)**, University of Uyo
+- 💼 Backend Engineer at [Kwekmarket.com](https://kwekmarket.com)
+- 🔧 Passionate about **optimizing performance & scalability** with Python
+- 🌱 Currently exploring advanced **database optimization** techniques
+- 👯 Looking to collaborate on **high-scale backend systems**
 
-      {/* Connect Section */}
-      <div className="space-y-4">
-        <h2 className="text-2xl font-semibold text-blue-400">🔗 Connect with Me</h2>
-        <div className="flex space-x-4">
-          <a href="https://github.com/Goodnessmbakara" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
-            <Github className="w-6 h-6" />
-          </a>
-          <a href="https://linkedin.com/in/goodnessmbakara" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
-            <Linkedin className="w-6 h-6" />
-          </a>
-          <a href="https://twitter.com/Goodnessmbakara" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
-            <Twitter className="w-6 h-6" />
-          </a>
-          <a href="mailto:mbakaragoodness2003@gmail.com" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
-            <Mail className="w-6 h-6" />
-          </a>
-        </div>
-      </div>
+### 💻 Tech Stack
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
 
-      <div className="text-center text-gray-400 mt-8">
-        <p>💡 Let's Build Something Amazing Together 🚀</p>
-      </div>
-    </div>
-  );
-};
+### 📊 GitHub Stats
 
-export default GithubProfile;
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Goodnessmbakara&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Goodnessmbakara&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Goodnessmbakara&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
+</div>
+
+### 🤝 Connect with Me
+<p align="left">
+  <a href="https://linkedin.com/in/goodnessmbakara">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/Goodnessmbakara">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+  <a href="mailto:mbakaragoodness2003@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Goodnessmbakara&style=flat-square&color=blue" alt="Profile Views"/>
+  <h4>💡 Let's Build Something Amazing Together 🚀</h4>
+</div>
